@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,200&family=PT+Serif:ital@1&display=swap");
+
+/* font-family: 'Kanit', sans-serif;
+font-family: 'PT Serif', serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F1F6F9;
+}
+
+.navbar {
+    height: 180px;
+    background-color: #F1F6F9 !important;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "Kanit", sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    border: 5px solid #394867;
+    padding: 10px;
+    color: black;
+}
+
+.navbar-brand a {
+    color: black;
+}
+
+.navbar span {
+    color: black;
+    text-shadow: 0 0 3px black;
+}
+
+.navbar .nav-link {
+    color: #394867 !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #9BA4B5 !important;
+
+}
+
+/* estilos de home */
+.bienvenida {
+    height: calc(100vh- 180px);
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+}
+
+.bienvenida h1 {
+    color: #394867;
+    margin: 20px;
+}
+
+.bienvenida h2 {
+    color: #394867;
+    text-transform: capitalize;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.bienvenida p {
+    text-align: justify;
+    padding: 20px;
+
+}
+
+.bienvenida-left {
+    padding: 30px;
+    width: 700px;
+}
+
+.info-bienvenida-left {
+    background-color: #9BA4B5;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid orange;
+    text-align: center;
+    font-size: 20px;
+}
+
+.info-bienvenida-left a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.info-bienvenida-right p {
+    width: 400px;
+
+}
+
+/* estilos adopta */
+.titulo-adopta {
+    text-align: center;
+
+}
+
+.row {
+    height: calc(100vh- 180px);
+    width: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: 40px;
+}
+
+.card {
+    height: 650px;
+    margin: 20px 20px 20px 20px;
+
+
+
+}
+
+.card img {
+    height: 240px;
+    width: auto;
+    background-color: aqua;
+    margin: 20px;
+    object-fit: cover;
+}
+
+.card-body {
+    height: 200px;
+}
+
+/* colabora */
+.colabora {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    margin: 30px;
+    padding: 30px;
+    overflow: hidden;
+
+}
+
+
+.card__img {
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    border-radius: 50%;
+    position: relative;
+    padding: 30px;
+    margin-top: 30px;
+    border: 7px solid #394867;
+}
+
+
+
+.card__desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.colabora-p {
+    display: grid;
+    justify-content: center;
+    text-align: justify;
+    margin: 50px;
+
+}
+
+.colabora-p p {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #394867;
+}
+
+/* estilos nosotros */
+
+.nosotros {
+    height: calc(100vh- 180px);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 20px 20px 20px;
+    overflow-x: hidden;
+}
+
+.nosotros-first {
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+}
+
+.nosotros-first h1 {
+    text-transform: capitalize;
+}
+
+.nosotros-first p {
+    text-align: justify;
+}
+
+.nosotros2 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 20px 20px 20px;
+    overflow-x: hidden;
+
+}
+
+.nosotros-second {
+    width: 600px;
+    height: 500px;
+    margin: 30px;
+
+}
+
+.nosotros-second h1 {
+    text-transform: capitalize;
+}
+
+.nosotros-second p {
+    text-align: justify;
+}
+
+/* estilos contacto */
+.contacto-info {
+    text-align: center;
+    margin: 40px;
+}
+
+
+/*estilos de footer*/
+footer {
+    height: 200px;
+    background-color: #394867;
+    text-align: center;
+    font-size: 22px;
+    text-transform: capitalize;
+    padding: 10px;
+    font-weight: bold;
+}
+
+footer p {
+    margin-bottom: 15px;
+}
+
+.redes a {
+    color: rgb(239, 232, 220);
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+
+@media only screen and (max-width:768px) {
+    .bienvenida {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .nosotros {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotros-first {
+        height: 350px;
+        margin: 10px;
+    }
+
+    .nosotros2 {
+        flex-direction: column;
+    }
+
+    .nosotros-second {
+        height: 300px;
+    }
+
+    .colabora {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        
+    
+    }
+
+    .card__img {
+        height: 400px;
+        width: auto;
+        
+    }
+
+}
+    
+
+    
+
+
+
+
+
+
