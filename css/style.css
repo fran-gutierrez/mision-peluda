@@ -179,11 +179,22 @@ body {
   background-position: center;
   margin-bottom: 30px;
   border-radius: 50%;
+  box-shadow: inset 0 0 10px #245953;
+}
+
+.adopta:hover {
+  background-color: #CBE4DE;
+  transform: scale(1.1);
+  transition: all 0.8s;
 }
 
 .descripcion ul li {
   font-size: 20px;
   align-items: center;
+}
+
+.descripcion {
+  padding: 10px;
 }
 
 .descripcion a {
