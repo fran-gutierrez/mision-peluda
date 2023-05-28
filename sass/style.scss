@@ -115,11 +115,12 @@ body {
 #tittle-main {
     color: white;
     font-size: $font2;
-    text-shadow: 5px 5px 10px $color2;
+    text-shadow: 5px 5px 5px black;
     position: absolute;
     bottom: 0;
     padding: $xs;
-    font-family: $font2;
+    font-family: $font3;
+    text-transform: capitalize;
 
 }
 
@@ -154,6 +155,7 @@ body {
     margin: $xs;
     background-color: $color2;
     border-radius: 10px;
+
 
 
     a {
@@ -198,19 +200,21 @@ body {
 }
 
 .img-nosotros1 {
-    height: $xxl+$large;
-    width: $xxl*2;
+    height: $xxl;
+    width: $xl*3;
     background-image: url(../img/cat-nosotros1.jpg);
     background-size: cover;
     background-position: center;
     margin: $small;
+    
+    
 }
 
 
 .img-nosotros2 {
 
-    height: $xxl+$large;
-    width: $xxl*2;
+    height: $xxl;
+    width: $xl*3;
     background-image: url(../img/cat-nosotros2.jpg);
     background-size: cover;
     background-position: center;
@@ -381,10 +385,12 @@ body {
 }
 
 .tittle-card {
-    text-transform: capitalize;
+    text-transform: uppercase;
     font-size: $small;
     font-weight: bold;
     text-shadow: 0 0 3px $color2;
+    text-shadow: 5px 5px 6px black;
+    color: white;
 }
 
 .front,
@@ -489,6 +495,7 @@ body {
     padding: $small;
 
 }
+
 
 
 // footer

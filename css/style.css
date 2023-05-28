@@ -60,11 +60,12 @@ body {
 #tittle-main {
   color: white;
   font-size: sans-serif;
-  text-shadow: 5px 5px 10px #245953;
+  text-shadow: 5px 5px 5px black;
   position: absolute;
   bottom: 0;
   padding: 10px;
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
+  text-transform: capitalize;
 }
 
 .bienvenida-left h2 {
@@ -130,8 +131,8 @@ body {
 }
 
 .img-nosotros1 {
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: 300px;
   background-image: url(../img/cat-nosotros1.jpg);
   background-size: cover;
   background-position: center;
@@ -139,8 +140,8 @@ body {
 }
 
 .img-nosotros2 {
-  height: 250px;
-  width: 400px;
+  height: 200px;
+  width: 300px;
   background-image: url(../img/cat-nosotros2.jpg);
   background-size: cover;
   background-position: center;
@@ -293,10 +294,12 @@ body {
 }
 
 .tittle-card {
-  text-transform: capitalize;
+  text-transform: uppercase;
   font-size: 20px;
   font-weight: bold;
   text-shadow: 0 0 3px #245953;
+  text-shadow: 5px 5px 6px black;
+  color: white;
 }
 
 .front,
